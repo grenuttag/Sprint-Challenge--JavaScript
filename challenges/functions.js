@@ -17,9 +17,9 @@ function consume(param1, param2, callback) {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-let add = (param1, param2) => param1 + param2
-let multiply = (param1, param2) => param1 * param2
-let greeting = (param1, param2) => `Hello ${param1} ${param2} Poppins, nice to meet you!`
+const add = (param1, param2) => param1 + param2
+const multiply = (param1, param2) => param1 * param2
+const greeting = (param1, param2) => `Hello ${param1} ${param2} Poppins, nice to meet you!`
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 consume(2, 2, add) // 4
